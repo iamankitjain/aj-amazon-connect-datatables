@@ -1,0 +1,25 @@
+{
+  "instanceARN": "arn:aws:connect:ca-central-1:113997911306:instance/522fb3b6-0907-4fb4-a367-960e58b7df02",
+  "dataTables": [
+    {
+      "name": "CustomerTypes",
+      "description": "Customer type lookup table",
+      "timeZone": "US/Eastern",
+      "valueLockLevel": "DATA_TABLE",
+      "tags": {
+        "Environment": "Production",
+        "Team": "CustomerService"
+      }
+    },
+    {
+      "name": "PriorityLevels",
+      "description": "Support ticket priority levels",
+      "timeZone": "US/Eastern",
+      "valueLockLevel": "DATA_TABLE",
+      "tags": {
+        "Environment": "Production",
+        "Team": "Support"
+      }
+    }
+  ]
+}

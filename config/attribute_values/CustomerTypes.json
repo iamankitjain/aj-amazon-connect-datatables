@@ -1,0 +1,605 @@
+{
+  "tableName": "CustomerTypes",
+  "values": [
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST001"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "VIP"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "15000.50"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Phone,SMS"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "299.99,450.00,125.75"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST002"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Enterprise"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "5200.25"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "89.99,199.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST003"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "VIP"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "85000.00"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,SMS,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "1200.00,850.75,2100.50,675.25"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST004"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Basic"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "150.75"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "false"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "25.99"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST005"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Enterprise"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "250000.00"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "5000.00,7500.25,12000.50,8750.75,15000.00"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST006"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Premium"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "18500.30"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Phone"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "399.99,275.50,825.00"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST007"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Standard"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "3200.15"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "SMS,Email"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "125.99,89.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST008"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Basic"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "450.00"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "45.99,75.25,125.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST009"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "VIP"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "95000.75"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,SMS"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "2500.00,1875.50,3200.25"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST010"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Enterprise"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "180000.50"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,Chat,SMS"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "8500.00,12000.75,6750.25,9200.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST011"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Premium"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "22000.25"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Phone,SMS"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "550.00,325.75,875.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST012"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Standard"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "1850.00"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "false"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "99.99,150.25"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST013"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Basic"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "275.50"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "35.99,65.25,85.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST014"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "VIP"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "125000.00"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,SMS,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "3500.00,2750.25,4200.75,1850.50,5100.00"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST015"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Enterprise"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "320000.75"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "15000.00,18500.25,22000.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST016"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Premium"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "12500.30"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email,Phone"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "425.99,675.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST017"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Standard"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "4750.25"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "SMS,Email,Chat"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "175.99,225.50,325.75"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST018"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Basic"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "85.75"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "false"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Email"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "15.99,25.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST019"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "VIP"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "85000.50"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,SMS"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "2200.00,1950.75,3100.25,2750.50"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "CustomerID",
+          "value": "CUST020"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "CustomerTier",
+          "value": "Enterprise"
+        },
+        {
+          "attributeName": "AccountBalance",
+          "value": "450000.00"
+        },
+        {
+          "attributeName": "IsActive",
+          "value": "true"
+        },
+        {
+          "attributeName": "ContactMethods",
+          "value": "Phone,Email,Chat,SMS,Mail"
+        },
+        {
+          "attributeName": "PurchaseHistory",
+          "value": "25000.00,32000.75,28500.50,35000.25,42000.00"
+        }
+      ]
+    }
+  ]
+}

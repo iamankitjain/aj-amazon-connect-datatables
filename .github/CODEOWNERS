@@ -1,0 +1,41 @@
+# Amazon Connect DataTables Pipeline - Code Owners
+# This file defines who must review changes to specific parts of the codebase
+
+# Global fallback - all files require review from project owner
+* @iamankitjain
+
+# Core source code - requires review from maintainers
+/src/ @iamankitjain
+/src/config_loader.py @iamankitjain
+/src/table_manager.py @iamankitjain
+/src/attribute_manager.py @iamankitjain
+/src/value_manager.py @iamankitjain
+
+# Deployment scripts - critical for production
+/deploy/ @iamankitjain
+/deploy/connect_datatables_handler.py @iamankitjain
+/deploy/deploy.py @iamankitjain
+
+# Configuration files - require careful review
+/config/ @iamankitjain
+/config/data_tables_config.json @iamankitjain
+/config/attributes/ @iamankitjain
+/config/attribute_values/ @iamankitjain
+
+# Test and utility scripts
+/test/ @iamankitjain
+
+# Documentation and project files
+README.md @iamankitjain
+requirements.txt @iamankitjain
+.gitignore @iamankitjain
+
+# GitHub configuration files
+/.github/ @iamankitjain
+/.github/CODEOWNERS @iamankitjain
+
+# Security-sensitive files require extra scrutiny
+**/requirements.txt @iamankitjain
+**/*config*.json @iamankitjain
+**/*secret* @iamankitjain
+**/*key* @iamankitjain

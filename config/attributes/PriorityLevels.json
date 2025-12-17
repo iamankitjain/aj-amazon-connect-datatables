@@ -1,0 +1,69 @@
+{
+  "tableName": "PriorityLevels",
+  "attributes": [
+    {
+      "name": "PriorityID",
+      "valueType": "TEXT",
+      "description": "Priority level identifier",
+      "primary": true,
+      "validation": {
+        "minLength": 1,
+        "maxLength": 10
+      }
+    },
+    {
+      "name": "PriorityName",
+      "valueType": "TEXT",
+      "description": "Priority level name",
+      "primary": true,
+      "validation": {
+        "enum": {
+          "strict": true,
+          "values": ["Critical", "High", "Medium", "Low", "Urgent"]
+        }
+      }
+    },
+    {
+      "name": "ResponseTime",
+      "valueType": "NUMBER",
+      "description": "Expected response time in hours",
+      "primary": false,
+      "validation": {
+        "minimum": 0.5,
+        "maximum": 168.0,
+        "multipleOf": 0.5
+      }
+    },
+    {
+      "name": "EscalationRequired",
+      "valueType": "BOOLEAN",
+      "description": "Whether escalation is required",
+      "primary": false
+    },
+    {
+      "name": "NotificationChannels",
+      "valueType": "TEXT_LIST",
+      "description": "Notification channels for this priority",
+      "primary": false,
+      "validation": {
+        "minValues": 1,
+        "maxValues": 3,
+        "enum": {
+          "strict": true,
+          "values": ["Email", "SMS", "Slack", "PagerDuty", "Teams"]
+        }
+      }
+    },
+    {
+      "name": "SLATargets",
+      "valueType": "NUMBER_LIST",
+      "description": "SLA target times in hours",
+      "primary": false,
+      "validation": {
+        "minValues": 1,
+        "maxValues": 4,
+        "minimum": 0.25
+      }
+    }
+  ]
+}

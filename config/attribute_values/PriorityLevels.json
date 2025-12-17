@@ -1,0 +1,605 @@
+{
+  "tableName": "PriorityLevels",
+  "values": [
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P001"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Critical"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "0.5"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,PagerDuty"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "0.25,0.5,1.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P002"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "High"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "2.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,Slack"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "1.0,2.0,4.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P003"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Medium"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "8.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "4.0,8.0,16.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P004"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Low"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "24.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "12.0,24.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P005"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Urgent"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "1.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "SMS,PagerDuty,Teams"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "0.5,1.0,2.0,4.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P006"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Critical"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "0.5"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,SMS,Slack"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "0.25,0.5,1.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P007"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "High"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "3.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,Teams"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "2.0,4.0,6.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P008"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Medium"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "12.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,Slack"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "6.0,12.0,24.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P009"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Low"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "48.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "24.0,48.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P010"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Urgent"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "1.5"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "SMS,Email,PagerDuty"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "0.75,1.5,3.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P011"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Critical"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "1.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "PagerDuty,SMS"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "0.5,1.0,2.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P012"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "High"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "4.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,Slack,Teams"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "2.0,4.0,8.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P013"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Medium"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "16.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "8.0,16.0,32.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P014"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Low"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "72.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "48.0,72.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P015"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Urgent"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "2.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Teams,SMS"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "1.0,2.0,4.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P016"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Critical"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "0.5"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "PagerDuty,SMS,Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "0.25,0.5,1.0,2.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P017"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "High"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "6.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,Slack"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "3.0,6.0,12.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P018"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Medium"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "20.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email,Teams"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "10.0,20.0,40.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P019"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Low"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "96.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "false"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "Email"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "72.0,96.0"
+        }
+      ]
+    },
+    {
+      "primaryValues": [
+        {
+          "attributeName": "PriorityID",
+          "value": "P020"
+        },
+        {
+          "attributeName": "PriorityName",
+          "value": "Urgent"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeName": "ResponseTime",
+          "value": "3.0"
+        },
+        {
+          "attributeName": "EscalationRequired",
+          "value": "true"
+        },
+        {
+          "attributeName": "NotificationChannels",
+          "value": "SMS,PagerDuty,Teams"
+        },
+        {
+          "attributeName": "SLATargets",
+          "value": "1.5,3.0,6.0,12.0"
+        }
+      ]
+    }
+  ]
+}

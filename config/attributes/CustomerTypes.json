@@ -1,0 +1,68 @@
+{
+  "tableName": "CustomerTypes",
+  "attributes": [
+    {
+      "name": "CustomerID",
+      "valueType": "TEXT",
+      "description": "Unique customer identifier",
+      "primary": true,
+      "validation": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    {
+      "name": "CustomerTier",
+      "valueType": "TEXT",
+      "description": "Customer tier level",
+      "primary": false,
+      "validation": {
+        "enum": {
+          "strict": true,
+          "values": ["Premium", "Standard", "Basic", "VIP", "Enterprise"]
+        }
+      }
+    },
+    {
+      "name": "AccountBalance",
+      "valueType": "NUMBER",
+      "description": "Current account balance",
+      "primary": false,
+      "validation": {
+        "minimum": 0.0,
+        "maximum": 1000000.0
+      }
+    },
+    {
+      "name": "IsActive",
+      "valueType": "BOOLEAN",
+      "description": "Customer account status",
+      "primary": false
+    },
+    {
+      "name": "ContactMethods",
+      "valueType": "TEXT_LIST",
+      "description": "Preferred contact methods",
+      "primary": false,
+      "validation": {
+        "minValues": 1,
+        "maxValues": 5,
+        "enum": {
+          "strict": true,
+          "values": ["Email", "Phone", "SMS", "Chat", "Mail"]
+        }
+      }
+    },
+    {
+      "name": "PurchaseHistory",
+      "valueType": "NUMBER_LIST",
+      "description": "Last 5 purchase amounts",
+      "primary": false,
+      "validation": {
+        "minValues": 0,
+        "maxValues": 5,
+        "minimum": 0.0
+      }
+    }
+  ]
+}
